@@ -9,13 +9,17 @@ package Abramov1;
  *
  * @author Tahir
  */
-public class Abramov7 {
-   
+public class Abramov8 {
+
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
-        int V1=20,V2=30;
-        int t1=25,t2=36;
-        System.out.println(V1+V2);
-        System.out.println((t1+t2)/2);
+        int r=4,a=7;
+        double c;
+        c=(2*r)/Math.sqrt(3);
+        System.out.println(c*a);
+        
     }
-         
+    
 }
