@@ -1,10 +1,7 @@
 package Abramov1;
 
-
-
-
-
 public class Abramov3 {
+
 
     
     public static void main(String[] args) {

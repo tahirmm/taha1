@@ -9,21 +9,16 @@ package Abramov1;
  *
  * @author Tahir
  */
-public class Abramov15 {
+public class Abramov24 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        double h=5,a=4,b,r;
-        b=Math.sqrt((h*h)-(a*a));
-        double p;
-        p=0.5*(a+b+h);
-        r=Math.sqrt(((p-a)*(p-b)*(p-h))/p);
-        System.out.println(r+" "+b);
-        
-        
+        int x1=2,x2=5,y1=2,y2=5;
+        double d;
+        d=Math.sqrt(Math.pow(x2-x1,2)*Math.pow(y2-y1,2));
     }
     
 }
